@@ -82,7 +82,7 @@ predicted_prices = scaler.inverse_transform(predicted_prices)
 
 # Plot the test predictions 
 plt.plot(atcual_prices, color = "Blue", label = f"actual{company}price")
-plt.plot(predicted_prices, color = 'green', label = f"Prediction{company}Price" )
+plt.plot(predicted_prices, color = 'red', label = f"Prediction{company}Price" )
 
 plt.title(f'{company}Share Price')
 plt.xlabel('Time')
