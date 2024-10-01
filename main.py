@@ -11,6 +11,7 @@ from tenserflow.keras.layers import Dense, Dropout, LSTM
 
 # Loading the data
 company = 'FB'
+company = 'Amazon'
 
 start = dt.datetime(2012,1,1)
 end = dt.datetime(2020,1,1)
