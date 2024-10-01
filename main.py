@@ -69,7 +69,7 @@ model_inputs = scaler.transform(model_inputs)
 
 # Make predictions on test data
 
-x_test =[]
+x_test =[0]
 
 for x in range(prediction_days,len(model_inputs)):
     x_test.append(model_inputs[x-prediction_days:x,0])
