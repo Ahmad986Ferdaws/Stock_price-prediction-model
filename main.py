@@ -54,7 +54,7 @@ model.fit(x_train,y_train, epochs= 25, batch_size= 32)
 ''' Test the model accuracy on existing data'''
 
 # Load 
-test_start = dt.datetime(2020,1,1)
+test_start = dt.datetime(2024,1,1)
 test_end = dt.datetime.now()
 
 test_data = web.DataReader(company,'yahoo',test_start,test_end)
