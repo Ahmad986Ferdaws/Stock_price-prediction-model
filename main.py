@@ -1,4 +1,4 @@
-# so first we are going to import the necesary librtaries 
+# so first we are going to import the necesary librtaries to make sure you have all the libraries please check the terminal on macos or command promt,powershell on windows
 # first we import the numpy 
 import numpy as np
 import matplotlib.pyplot as plt
