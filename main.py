@@ -7,6 +7,7 @@ import pandas as pd
 # as pandas data reader that will help us to read the data thar are necessary for 
 # stock prediction 
 import pandas_datareader as web
+# and over here we are importing the date time as pd since we will have the option to ask predictions from certian date time
 import datetime as dt
 
 from sklearn.preprocessing import MinMaxScaler
