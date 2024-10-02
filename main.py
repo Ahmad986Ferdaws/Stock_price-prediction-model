@@ -4,6 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 # this part of the code we import a function thats classified in pandas library 
+# as pandas data reader that will help us to read the data thar are necessary for 
+# stock prediction 
 import pandas_datareader as web
 import datetime as dt
 
