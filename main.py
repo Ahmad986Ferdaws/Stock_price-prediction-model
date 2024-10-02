@@ -3,6 +3,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+# this part of the code we import a function thats classified in pandas library 
 import pandas_datareader as web
 import datetime as dt
 
