@@ -21,7 +21,7 @@ company = 'Amazon'
 #and also over here we define the start date and also end date
 start = dt.datetime(2012,1,1)
 end = dt.datetime(2020,1,1)
-
+# in this part the we read the data from yahoo
 data = web.DataReader(company,'yahoo',start,end)
 
 # Prepare Data
