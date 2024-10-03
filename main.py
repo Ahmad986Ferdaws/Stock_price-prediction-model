@@ -15,6 +15,7 @@ from tensorflow.keras.models import Sequential
 from tenserflow.keras.layers import Dense, Dropout, LSTM
 
 # Loading the data
+#over here for loading the data
 company = 'FB'
 company = 'Amazon'
 
